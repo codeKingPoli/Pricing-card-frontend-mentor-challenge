@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+  font-family:'karla';
+  font-size:16px;
+}
+body {
+  vertical-align: middle;
+  padding: 100px;
+}
+*{
+  box-sizing: inherit;
+  margin:0;
+}
+
+#card {
+  width: 650px;
+  height: 420px;
+  box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+#top-section h2{
+  color:#70DBC4;
+  margin-bottom:20px
+}
+#top-section h4{
+  color:#D2DC29;
+  margin-bottom:10px;
+}
+#top-section p {
+  color: #7EADC2;
+}
+#bottom-section {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+#bottom-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color:#5EDBAA;
+  padding: 20px;
+}
+#price-tag > h1, p {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#bottom-left > p{
+  opacity: 0.6;
+}
+#price-tag p{
+  color:#68BDA2;
+}
+#bottom-left h3{
+  margin:10px;
+}
+button{
+  width: 90%;
+  margin-top:20px;
+  margin-left:5px;
+  padding:15px;
+  background-color:#AADB00;
+  color:white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  cursor:pointer;
+  background-color:#B9DB00;
+  transform: scale(1.05);
+}
+#bottom-right{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color:#70DBC4;
+  padding: 20px;
+  vertical-align: top;
+}
+#bottom-right h3 {
+  margin: 20px;
+}
+#bottom-right ul {
+  margin: 10px;
+  padding : 0;
+  list-style: none;
+  opacity:0.5
+}
+#bottom-right li {
+  margin: 4px;
+  padding : 0;
+}
